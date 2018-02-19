@@ -1,0 +1,176 @@
+<!Doctype html><html><
+<script>function myFirstFunction() {
+    //output some HTML
+    return profilesHTML;
+}
+
+var myHTML = myFirstFunction();
+
+function mySecondFunction(myHTML) {
+    //do something with parameter
+}
+</script>
+  <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #40e0d0;
+            }
+            li {
+                float: left;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            h1{
+                color:yellow;
+            }
+            /*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+    
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+        </style><body><ul><h1>About</h1>
+           <li><a href="https://park-final-sertorama.c9users.io/Home.html">Home</a></li>
+                <li class="dropdown">
+                     <a href="#" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                         <a href="https://park-final-sertorama.c9users.io/Profile.html">Profiles</a>
+                         <a href="https://park-final-sertorama.c9users.io/Videos.html">Videos</a>
+
+                         <a href="https://park-final-sertorama.c9users.io/Images.html">Images</a>
+
+                         <a href="https://park-final-sertorama.c9users.io/Maps.html">Maps</a></div>
+            </li>
+        </ul>
+        
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+   	<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+<section id="contact">
+			<div class="section-content">
+				<h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+				<h3>Contact Info</h3>
+			</div>
+			<div class="contact-section">
+			<div class="container">
+				<form>
+					<div class="col-md-6 form-line">
+			  			<div class="form-group">
+			  				<label for="exampleInputUsername">Your name</label>
+					    	<input type="text" class="form-control" id="" placeholder=" Enter Name">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="exampleInputEmail">Email Address</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+					  	</div>	
+					  	<div class="form-group">
+					    	<label for="telephone">Mobile No.</label>
+					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  			<div class="form-group">
+			  				<label for ="description"> Message</label>
+			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+			  			</div>
+			  			<div>
+
+			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+			  			</div>
+			  			
+					</div>
+				</form>
+			</div>
+		</section>
+</form>
+</body>
+</html>
